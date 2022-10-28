@@ -1,0 +1,26 @@
+{
+  "name": "zuri-nodejs",
+  "version": "1.0.0",
+  "description": "This is a practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fobadara/zuri-nodejs.git"
+  },
+  "author": "Fobadara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fobadara/zuri-nodejs/issues"
+  },
+  "homepage": "https://github.com/fobadara/zuri-nodejs#index.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
