@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgb(6, 70, 53);
+  background: rgb(250, 236, 163);
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(110, 106, 106);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 70, 53);
+}
+
+a:hover {
+  color: darkgray;
+}
+
+a:active {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  margin: 1em auto;
+  padding: 0.5em 2em;
+  background: rgb(240, 187, 98)
+}
+
+#image-container {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.nav-link{
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+main {
+  background: rgb(240, 187, 98);
+}
+
+form {
+  margin: auto;
+}
+
+fieldset {
+  border-radius: 10% 20%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  padding: 1.5em;
+  margin: 1em auto;
+}
+
+fieldset input {
+  width: 100%;
+}
+
+footer {
+  height: 10em;
+  background: rgb(240, 187, 98);
+}
+
+.form-footer {
+  height: 2em;
+}
+
+.contact-container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-container a {
+  display: inline-block;
+  font-size: large;
+  font-weight: bold;
+  width: 60%;
+  height: 4em;
+  margin-top: 3em;
+  padding-top: 25px;
+  color: rgb(202, 197, 197);
+  background-color: rgb(6, 70, 53);
+}
+
+.contact-message {
+  margin: auto;
+}
+
+/* Generic styles */
+.flex {
+  display: flex;
+}
+
+.alert {
+  color: red;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.auto-grid {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  margin-right: 1em;
+  gap: 2em;
+}
+
+.auto-grid-max {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  margin-right: 1em;
+  gap: 2em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.btn {
+    width: 60%;
+    text-align: center;
+    background-color: rgb(6, 70, 53);
+    color: rgb(202, 197, 197);
+    margin: 1em auto;
+}
+
+.border {
+  border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 2x 2px rgba(0, 0, 0, 0.5);
+}
+
+.mango-border {
+  border-radius: 50% 10%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.pear-border {
+  border-radius: 20% 1%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+
+/* end of generic styles */
